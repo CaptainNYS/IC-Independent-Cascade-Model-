@@ -104,6 +104,8 @@ plt.legend(labels = ['activated1','activated2','activated3'], loc = 'best')
 plt.xlabel('Time/step')
 plt.ylabel('Node density')
 
+
+
 plt .show()
 
 
