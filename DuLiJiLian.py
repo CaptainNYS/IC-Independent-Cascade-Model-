@@ -7,7 +7,7 @@ import matplotlib .pyplot as plt
 
 N = 769
 start = 561
-K=3#循环次数
+K=5#循环次数
 M=10#每一循环的遍历次数
 #读取数据
 print("读取数据")
@@ -91,6 +91,7 @@ for i in range(K):
         s[i][j] = pdf
 # mean_s[i]=s[i]
 #出图
+
 x_zhou=np.array(range (M))
 
 plt.figure()
